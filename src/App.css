@@ -1,0 +1,75 @@
+body{
+  font-weight: Arial , Helvetica, sans-serif ;
+  font-weight: 90px;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7dddd;
+}
+.card{
+  background-color:#fefefe;
+  height: 350px;
+  width: 450px;
+  border-radius: 10px;
+  padding: 20px 16px;
+}
+.card:hover{
+  box-shadow: 5px 5px 10px 2px #bab7b7;
+}
+.card >h2{
+  text-align: center;
+}
+.card > input {
+  width: 240px;
+  height: 36px;
+  align-items: left;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.card > button {
+  padding: 12px 20px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: none;
+  border-bottom-left-radius: none;
+  background-color:#15b2db;
+  color: #fefefe;
+}
+.card > button:hover{
+  background-color: #0d2695;
+  color: #fff;
+}
+.listItem > li > div{
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+}
+.listItem > li > div > input[type="checkbox"] {
+  width: 20px;
+}
+.listItem > li {
+   width: 350px;
+   height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+.listItem > li > button{
+  background-color:black;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 10px;
+  align-items: center;
+  
+}
+.listItem > li > button:hover{
+  background-color: brown;
+  color: azure;
+}
+.todolabel{
+    text-transform:capitalize ;
+}
